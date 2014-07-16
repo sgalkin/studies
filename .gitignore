@@ -19,3 +19,11 @@
 *.exe
 *.out
 *.app
+
+# VS
+Debug
+Release
+
+*.suo
+*.opensdf
+*.sdf
