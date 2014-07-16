@@ -47,7 +47,7 @@ auto handle(const Acquire& a, const Release& r) -> decltype(handle_<Acquire, Rel
 		std::stringstream s##__LINE__; \
 		s##__LINE__ << message; \
 		throw type(s##__LINE__.str()); \
-	} while (true)
+	} while (false)
 
 template<typename Call, typename F, typename... Args>
 auto apply(Call&& call, F&& filter, Args&&... args) -> decltype(std::get<0>(call)(args...))
