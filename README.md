@@ -1,0 +1,4 @@
+studies
+=======
+
+Collection of ideas
